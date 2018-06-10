@@ -3,6 +3,8 @@
 Remy: TCP ex Machina (computer-generated congestion control)
 ============================================================
 
+Author's instructions:
+
 Remy is an optimization tool to develop new TCP congestion-control
 schemes, given prior knowledge about the network it will encounter
 and an objective to optimize for.
@@ -42,3 +44,9 @@ If you have any questions, please visit [Remy's Web
 site](http://web.mit.edu/remy) or e-mail `remy at mit dot edu`.
 
 -- Keith Winstein
+
+Reproduction Instruction:
+
+* All the dna files used for our results are present in `dna_files` folder
+
+* The configurations used for 2018 runs are present in `configurations` folder
