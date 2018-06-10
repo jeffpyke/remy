@@ -50,3 +50,20 @@ Reproduction Instruction:
 * All the dna files used for our results are present in `dna_files` folder
 
 * The configurations used for 2018 runs are present in `configurations` folder
+
+* Window transformation parameters can be adjusted in `src/whiskers.hh`
+
+To produce the graphs:
+
+We have updated the `tests/run-plot-script.py` to produce results in `tests/plot-results`. A new trained algorithm can be plotted in following way:
+
+* Using `make`
+  * Update `REMYCC_NAME` in `tests/run-plot-script.py`
+  * Run `make -j check` (this also runs additional checks)
+
+* Calling the script directly
+  * Update `REMYCC_NAME` in `tests/run-plot-script.py`
+  * Setup srcdir variable using `export srcdir=<path to remy>/remy/tests`
+  * Run `./run-plot-scripts.py`
+
+The resultant csv file is generated in `tests/plot-results/data`. We used this method to generate score for individual rule files and then used separte python script to combine them together. The script can be found in `tests/plot-results/data/plot.ipynb`

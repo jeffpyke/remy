@@ -1,0 +1,29 @@
+{
+  "args": {
+    "buffer_size": "inf",
+    "console_output_files": true,
+    "delay": 150.0,
+    "link_ppt": [
+      0.1,
+      100.0
+    ],
+    "mean_off": 1000.0,
+    "mean_on": 1000.0,
+    "nsenders": 2,
+    "num_points": 100,
+    "originals": "./../scripts/originals",
+    "progress_end_char": "\n",
+    "remycc": [
+      "./RemyCC-2014-100x.dna"
+    ],
+    "replot": [],
+    "results_dir": "plot-results",
+    "sender": "",
+    "sender_runner": "./../src/sender-runner"
+  },
+  "git": {
+    "describe": "v0.1-30-g3c1f9a6-dirty"
+  },
+  "machine-name": "parth-Lenovo-IdeaPad-Y510P",
+  "start-time": "Sat Jun  9 17:58:30 2018"
+}
