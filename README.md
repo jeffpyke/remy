@@ -45,7 +45,7 @@ site](http://web.mit.edu/remy) or e-mail `remy at mit dot edu`.
 
 -- Keith Winstein
 
-Reproduction Instruction:
+Reproduction Resources:
 
 * All the dna files used for our results are present in `dna_files` folder
 
